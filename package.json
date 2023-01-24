@@ -5,8 +5,8 @@
   "source": "src/views/index.html",
   "scripts": {
     "watch-tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "watch-parcel": "npx parcel watch ./src/views/*.html --dist-dir ./docs",
-    "serve": "npx parcel ./src/views/*.html --dist-dir ./docs"
+    "serve": "npx parcel  ./src/views/*.html --dist-dir ./test",
+    "docs": "npx parcel  ./src/views/*.html --dist-dir ./docs --public-url ./turbo-page-transition-demo/"
   },
   "repository": {
     "type": "git",
